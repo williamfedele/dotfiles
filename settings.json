@@ -1,0 +1,54 @@
+{
+    // - VS Code Settings -
+
+    // -- Internal UI Customization --
+
+    "breadcrumbs.enabled": false,
+
+    "explorer.sortOrder": "type",
+    "explorer.compactFolders": false,
+
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": false,
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "none",
+    "editor.lineNumbers": "on",
+    "editor.folding": false, // code folding column
+    "editor.glyphMargin": true, // debug button column
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.hideCursorInOverviewRuler": false, // hide position shown on scrollbar
+    "editor.overviewRulerBorder": false, // vertical separator line next to scrollbar
+    "editor.padding.top": 30, // editor top padding
+    "editor.padding.bottom": 30, // editor bottom padding
+    "editor.bracketPairColorization.enabled": true,
+    "editor.renderControlCharacters": false,
+    "editor.lineHeight": 1.2,
+
+    "files.trimFinalNewlines": true,
+
+    "terminal.integrated.cursorStyle": "line",
+
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+    "window.titleSeparator": " - " ,
+    "window.menuBarVisibility": "toggle", // Toggle title bar menu with ALT
+
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+
+    "zenMode.centerLayout": false,
+
+    // -- Extensions --
+
+    "editor.fontFamily": "Jetbrains Mono Medium", // JB open-source font
+    "terminal.integrated.defaultProfile.windows": "Git Bash", // bash console on windows
+    "workbench.colorTheme": "Tokyo Night Light", // vscode extension
+    "workbench.iconTheme": "material-icon-theme", // vscode extension
+    "workbench.productIconTheme": "material-product-icons", // vscode extension
+
+}
