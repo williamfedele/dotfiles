@@ -1,4 +1,7 @@
-PROMPT="%F{28}%w%f [%F{28}%T%f] %F{33}%m%f @ %F{208}%~%f"$'\n'" %F{88}❱❱%f " 
+PROMPT="%F{33}%m%f @ %F{208}%~%f %F{88}λ%f " 
+RPROMPT="[%F{28}%T%f]"
 alias rath="ls -lrath"
 alias ll="ls -la"
 alias py="python3"
+export PATH="/usr/local/opt/python@3.10/bin:$PATH"
+

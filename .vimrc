@@ -14,9 +14,8 @@ Plug 'uguu-org/vim-matrix-screensaver'
 
 call plug#end()
 
-colorscheme gruvbox
-let g:gruvbox_contrast_dark='hard'
-set background=dark
+let g:seoul256_background='238'
+colo seoul256
 syntax on
 
 set foldenable
