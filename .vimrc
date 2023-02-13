@@ -1,22 +1,18 @@
-" github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/seoul256.vim'
-Plug 'morhetz/gruvbox'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf'
 Plug 'preservim/nerdtree'
-Plug 'justincampbell/vim-eighties'
-
-Plug 'uguu-org/vim-matrix-screensaver'
 
 call plug#end()
 
-let g:seoul256_background='238'
-colo seoul256
+colorscheme catppuccin_mocha
+let g:lightline = {'colorscheme': 'catppuccin_mocha'}
 syntax on
+set termguicolors
 
 set foldenable
 set foldmethod=indent
@@ -45,5 +41,4 @@ set scrolloff=10
 set mouse+=a
 nnoremap <leader><space> :nohlsearch<CR> 
 map <C-n> :NERDTreeToggle<CR>
-command! -bang Files call fzf#vim#files('~/Dev', <bang>0) " fzf limited to ~/Dev
 
